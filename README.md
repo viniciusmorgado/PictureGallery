@@ -1,2 +1,2 @@
 # PictureGallery
-PictureGallery with WPF and C#
+PictureGallery with WPF and .NET Core C# using MVC Pattern
