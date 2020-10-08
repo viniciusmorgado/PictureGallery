@@ -261,7 +261,7 @@
                         <materialDesign:PackIcon 
                                     Kind="Heart" 
                                     Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="13" Foreground="#FFFBFBFB"/>
                     </StackPanel>
                 </Grid>
 
@@ -284,7 +284,7 @@
                         <materialDesign:PackIcon 
                                     Kind="Heart" 
                                     Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="78" Foreground="#FFFBFBFB"/>
                     </StackPanel>
                 </Grid>
 
@@ -307,7 +307,7 @@
                         <materialDesign:PackIcon 
                                     Kind="Heart" 
                                     Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="46" Foreground="#FFFBFBFB"/>
                     </StackPanel>
                 </Grid>
 
@@ -330,7 +330,7 @@
                         <materialDesign:PackIcon 
                                     Kind="Heart" 
                                     Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="32" Foreground="#FFFBFBFB"/>
                     </StackPanel>
                 </Grid>
 
@@ -355,7 +355,9 @@
                     <materialDesign:PackIcon Kind="Settings"/>
              </Button>
             
-            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" 
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                    x:Name="ButtonClose"
+                    Click="CloseButton_Click"
                     Width="30" 
                     Height="40" 
                     Padding="0" 
