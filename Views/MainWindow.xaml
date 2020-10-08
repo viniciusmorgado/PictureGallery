@@ -19,13 +19,34 @@
                 <ColumnDefinition Width="250"/>
             </Grid.ColumnDefinitions>
             
-            <Grid Grid.Column="1">
-                <Image Height="150"  VerticalAlignment="Top" Source="/Assets/Images/pexels-photo-701449.jpeg" Stretch="UniformToFill" />
+            <Grid Grid.Column="1" Background="White">
+      
+                <Image Height="150"  VerticalAlignment="Top" Source="/Assets/Images/background.jpg" Stretch="UniformToFill" />
                 <Ellipse Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 100" Stroke="White">
                     <Ellipse.Fill>
                         <ImageBrush ImageSource="/Assets/Images/pexels-photo-247885.jpeg" Stretch="UniformToFill"/>
                     </Ellipse.Fill>
                 </Ellipse>
+                <TextBlock Text="John" Foreground="White" FontSize="28" FontFamily="Nirmala UI Semilight" Margin="10 100" VerticalAlignment="Top"/>
+                <StackPanel Margin="0 150">
+                    <Grid Height="60" Margin="20 50">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        
+                        <TextBlock Text="Followers: " VerticalAlignment="Bottom" Foreground="#FF3580BF" Margin="5, 0, 5, 5"/>
+                        <TextBlock Text="2.5K " VerticalAlignment="Top" Foreground="#FF3580BF" Grid.Row="1" Margin="10 0"/>
+
+                        <TextBlock Text="Followers: " VerticalAlignment="Bottom" Foreground="#FF3580BF" Margin="5, 0, 5, 5" Grid.Column="1"/>
+                        <TextBlock Text="2.5K " VerticalAlignment="Top" Foreground="#FF3580BF" Grid.Row="1" Margin="10 0" Grid.Column="1"/>
+                    </Grid>
+                </StackPanel>
             </Grid>
         </Grid>
         
