@@ -20,13 +20,20 @@
             </Grid.ColumnDefinitions>
             
             <Grid Grid.Column="1">
-                <Image Height="150" VerticalAlignment="Top"/>
-                <Ellipse Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 80"/>
+                <Image Height="150"  VerticalAlignment="Top" Source="/Assets/Images/pexels-photo-701449.jpeg" Stretch="UniformToFill" />
+                <Ellipse Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 100" Stroke="White">
+                    <Ellipse.Fill>
+                        <ImageBrush ImageSource="/Assets/Images/pexels-photo-247885.jpeg" Stretch="UniformToFill"/>
+                    </Ellipse.Fill>
+                </Ellipse>
             </Grid>
         </Grid>
         
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right">
-            <Button Uid="PowerButton" Width="30" Height="40" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" >
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Margin="10">
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"  Width="30" Height="40" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" >
+                <materialDesign:PackIcon Kind="Settings"/>
+            </Button>
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="40" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" >
                 <materialDesign:PackIcon Kind="Power"/>
             </Button> 
         </StackPanel>
