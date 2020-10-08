@@ -13,20 +13,20 @@
             WindowStyle="None">
     
     <Grid>
-        <Grid Background="#FF3580BF">
+        <Grid Background="White">
             
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="250"/>
             </Grid.ColumnDefinitions>
-            
+         
             <Grid Grid.Column="1" 
-                  Background="White">
+                  Background="#FF3580BF">
       
                 <Image Height="150" 
                        VerticalAlignment="Top" 
                        Source="/Assets/Images/background.jpg" 
-                       Stretch="UniformToFill" />
+                       Stretch="UniformToFill"/>
                 
                 <Ellipse Height="100" Width="100"
                          VerticalAlignment="Top"
@@ -48,7 +48,7 @@
                            VerticalAlignment="Top"/>
                 
                 <StackPanel Margin="0 150">
-                    <Grid Height="60" Margin="20 50">
+                    <Grid Height="60" Margin="20 50 20 0">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
@@ -61,28 +61,136 @@
                         
                         <TextBlock Text="Followers: " 
                                    VerticalAlignment="Bottom" 
-                                   Foreground="#FF3580BF" 
+                                   Foreground="White" 
                                    Margin="5, 0, 5, 5"/>
                         
                         <TextBlock Text="2.5K " 
                                    VerticalAlignment="Top" 
-                                   Foreground="#FF3580BF" 
+                                   Foreground="white" 
                                    Grid.Row="1" 
                                    Margin="10 0"/>
 
-                        <TextBlock Text="Followers: " 
+                        <TextBlock Text="Following: " 
                                    VerticalAlignment="Bottom" 
-                                   Foreground="#FF3580BF" 
+                                   Foreground="White" 
                                    Margin="5, 0, 5, 5" 
                                    Grid.Column="1"/>
                         
-                        <TextBlock Text="2.5K " 
+                        <TextBlock Text="1.3K " 
                                    VerticalAlignment="Top" 
-                                   Foreground="#FF3580BF" 
+                                   Foreground="White" 
                                    Grid.Row="1" Margin="10 0" 
                                    Grid.Column="1"/>
                     </Grid>
+
+                    <TextBlock Text="Hello everyone!"
+                                Foreground="white"
+                                Padding="5"
+                                Margin="3"/>
+                    
+                    <TextBlock TextWrapping="Wrap" 
+                               Foreground="White"
+                               TextAlignment="Left"
+                               Padding="5"
+                               Margin="3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </TextBlock>
                 </StackPanel>
+            </Grid>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Gallery" 
+                           Foreground="#FF3580BF" 
+                           FontSize="30" 
+                           FontFamily="Arial"
+                           Margin="5"
+                           Padding="3"
+                           Grid.Row="1"/>
+
+                <!-- Column One -->
+                <Grid Margin="5" 
+                      Grid.Row="2" 
+                      Grid.Column="0">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+                    
+                    <Image Source="/Assets/Images/pexels-photo-374592.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon Kind="Heart" Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+                
+                <!-- Column two -->
+                <Grid Margin="5" 
+                      Grid.Row="2" 
+                      Grid.Column="1">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701026.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                                <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                                <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Column Tree -->
+                <Grid Margin="5" 
+                      Grid.Row="2" 
+                      Grid.Column="2">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701762.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
             </Grid>
         </Grid>
         
