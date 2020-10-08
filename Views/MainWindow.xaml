@@ -101,7 +101,9 @@
                 </StackPanel>
             </Grid>
 
+            <!--#region Composition of main grid -->
             <Grid>
+                <!-- Definition of rows for main grid -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="50"/>
@@ -109,13 +111,15 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                
+
+                <!-- Definition of columns for main grid -->
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
+                <!-- Gallery main title -->
                 <TextBlock Text="Gallery" 
                            Foreground="#FF3580BF" 
                            FontSize="30" 
@@ -190,10 +194,12 @@
                         <TextBlock Text="25" Foreground="#FFFBFBFB"/>
                     </StackPanel>
                 </Grid>
-
+                
+                <!--#endregion Composition of main grid -->
             </Grid>
         </Grid>
         
+        <!-- Icons Settings and close top right -->
         <StackPanel Orientation="Horizontal" 
                     VerticalAlignment="Top" 
                     Height="40" 
