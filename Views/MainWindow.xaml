@@ -128,7 +128,8 @@
                            Padding="3"
                            Grid.Row="1"/>
 
-                <!-- Column One -->
+                <!-- Start from top left -->
+                <!-- Image One -->
                 <Grid Margin="5" 
                       Grid.Row="2" 
                       Grid.Column="0">
@@ -148,8 +149,8 @@
                         <TextBlock Text="25" Foreground="#FFFBFBFB"/>
                     </StackPanel>
                 </Grid>
-                
-                <!-- Column two -->
+
+                <!-- Image two -->
                 <Grid Margin="5" 
                       Grid.Row="2" 
                       Grid.Column="1">
@@ -172,7 +173,7 @@
                     </StackPanel>
                 </Grid>
 
-                <!-- Column Tree -->
+                <!-- Image Three -->
                 <Grid Margin="5" 
                       Grid.Row="2" 
                       Grid.Column="2">
@@ -194,7 +195,146 @@
                         <TextBlock Text="25" Foreground="#FFFBFBFB"/>
                     </StackPanel>
                 </Grid>
-                
+
+                <!-- Image Four-->
+                <Grid Margin="5" 
+                      Grid.Row="3" 
+                      Grid.Column="0">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Image Five -->
+                <Grid Margin="5" 
+                      Grid.Row="3" 
+                      Grid.Column="1">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Image Six -->
+                <Grid Margin="5" 
+                      Grid.Row="3" 
+                      Grid.Column="2">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Image Seven -->
+                <Grid Margin="5" 
+                      Grid.Row="4" 
+                      Grid.Column="0">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Image Eight -->
+                <Grid Margin="5" 
+                      Grid.Row="4" 
+                      Grid.Column="1">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Image Nine -->
+                <Grid Margin="5" 
+                      Grid.Row="4" 
+                      Grid.Column="2">
+                    <Grid.Effect>
+                        <DropShadowEffect 
+                            BlurRadius="20" 
+                            ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                Margin="5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon 
+                                    Kind="Heart" 
+                                    Foreground="#FFFBFBFB"/>
+                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
+                    </StackPanel>
+                </Grid>
+
+
                 <!--#endregion Composition of main grid -->
             </Grid>
         </Grid>
