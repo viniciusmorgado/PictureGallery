@@ -8,12 +8,16 @@
 
   <ItemGroup>
     <None Remove="Assets\Images\background.jpg" />
+    <None Remove="Assets\Images\pexels-photo-1485894.jpeg" />
     <None Remove="Assets\Images\pexels-photo-247885.jpeg" />
+    <None Remove="Assets\Images\pexels-photo-312105.jpeg" />
     <None Remove="Assets\Images\pexels-photo-374592.jpeg" />
     <None Remove="Assets\Images\pexels-photo-701026.jpeg" />
     <None Remove="Assets\Images\pexels-photo-701337.jpeg" />
     <None Remove="Assets\Images\pexels-photo-701449.jpeg" />
     <None Remove="Assets\Images\pexels-photo-701762.jpeg" />
+    <None Remove="Assets\Images\pexels-photo-842711.jpg" />
+    <None Remove="Assets\Images\pexels-photo-853199.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,12 +26,16 @@
 
   <ItemGroup>
     <Resource Include="Assets\Images\background.jpg" />
+    <Resource Include="Assets\Images\pexels-photo-1485894.jpeg" />
     <Resource Include="Assets\Images\pexels-photo-247885.jpeg" />
+    <Resource Include="Assets\Images\pexels-photo-312105.jpeg" />
     <Resource Include="Assets\Images\pexels-photo-374592.jpeg" />
     <Resource Include="Assets\Images\pexels-photo-701026.jpeg" />
     <Resource Include="Assets\Images\pexels-photo-701337.jpeg" />
     <Resource Include="Assets\Images\pexels-photo-701449.jpeg" />
     <Resource Include="Assets\Images\pexels-photo-701762.jpeg" />
+    <Resource Include="Assets\Images\pexels-photo-842711.jpg" />
+    <Resource Include="Assets\Images\pexels-photo-853199.jpeg" />
   </ItemGroup>
 
 </Project>

@@ -119,6 +119,19 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
+                <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"  
+                    Foreground="#FF3580BF"
+                    Width="30" 
+                    Height="40" 
+                    Padding="0" 
+                    Background="{x:Null}" 
+                    BorderBrush="{x:Null}"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    Margin="5">
+                    <materialDesign:PackIcon Kind="Menu"/>
+                </Button>
+
                 <!-- Gallery main title -->
                 <TextBlock Text="Gallery" 
                            Foreground="#FF3580BF" 
@@ -229,7 +242,7 @@
                             ShadowDepth="1"/>
                     </Grid.Effect>
 
-                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+                    <Image Source="/Assets/Images/pexels-photo-701449.jpeg" Stretch="UniformToFill"/>
 
                     <StackPanel Orientation="Horizontal"
                                 Margin="5"
@@ -252,7 +265,7 @@
                             ShadowDepth="1"/>
                     </Grid.Effect>
 
-                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+                    <Image Source="/Assets/Images/pexels-photo-853199.jpeg" Stretch="UniformToFill"/>
 
                     <StackPanel Orientation="Horizontal"
                                 Margin="5"
@@ -275,7 +288,7 @@
                             ShadowDepth="1"/>
                     </Grid.Effect>
 
-                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+                    <Image Source="/Assets/Images/pexels-photo-842711.jpg" Stretch="UniformToFill"/>
 
                     <StackPanel Orientation="Horizontal"
                                 Margin="5"
@@ -298,7 +311,7 @@
                             ShadowDepth="1"/>
                     </Grid.Effect>
 
-                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+                    <Image Source="/Assets/Images/pexels-photo-312105.jpeg" Stretch="UniformToFill"/>
 
                     <StackPanel Orientation="Horizontal"
                                 Margin="5"
@@ -321,7 +334,7 @@
                             ShadowDepth="1"/>
                     </Grid.Effect>
 
-                    <Image Source="/Assets/Images/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
+                    <Image Source="/Assets/Images/pexels-photo-1485894.jpeg" Stretch="UniformToFill"/>
 
                     <StackPanel Orientation="Horizontal"
                                 Margin="5"
